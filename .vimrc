@@ -1,9 +1,11 @@
 " VIM Configuration File
 " Description: Optimized for C/C++ development, but useful also for other things.
-" Author: Gerhard Gappmeier
+" Author: Hasun Amarasekara
 "
+set nocompatible    
+filetype off                 
 
-" set UTF-8 encoding
+"set UTF-8 encoding
 set enc=utf-8
 set fenc=utf-8
 set termencoding=utf-8
@@ -29,6 +31,19 @@ set number
 set showmatch
 " intelligent comments
 set comments=sl:/*,mb:\ *,elx:\ */
+set hlsearch
+noremap j gj
+noremap k gk
 
-:imap jj <Esc>
 
+:imap jk <Esc>
+syntax on
+let g:solarized_termcolors=256
+set t_Co=256 
+set background=dark
+colorscheme solarized
+
+nnoremap <F5> :make<bar>copen<return>
+nnoremap <silent> <C-l> :nohl<CR><C-l>
+nnoremap <F2>  :vsplit .<CR>
+set mouse=a
