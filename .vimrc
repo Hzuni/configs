@@ -32,18 +32,24 @@ set showmatch
 " intelligent comments
 set comments=sl:/*,mb:\ *,elx:\ */
 set hlsearch
-noremap j gj
-noremap k gk
-
-
-:imap jk <Esc>
 syntax on
-let g:solarized_termcolors=256
+
+
+
+" Vim Coloring
+"let g:solarized_termcolors=256
 set t_Co=256 
 set background=dark
-colorscheme solarized
+colorscheme molokai
 
+
+
+" Custom Key Mappings
 nnoremap <F5> :make<bar>copen<return>
 nnoremap <silent> <C-l> :nohl<CR><C-l>
-nnoremap <F2>  :vsplit .<CR>
+nnoremap <C-v>  :vsplit .<CR>
+nnoremap <C-h>  :split .<CR>
+imap jk <Esc>
 set mouse=a
+noremap j gj
+noremap k gk

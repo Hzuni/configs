@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/home/hasun/.adobe'
+let g:netrw_dirhist_2='/home/hasun'
+let g:netrw_dirhist_3='/home/hasun/.vim/colors/molokai'
+let g:netrw_dirhist_4='/home/hasun/Documents/EE461S_Operating_Systems/project3/userprog'
