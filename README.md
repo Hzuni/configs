@@ -1,2 +1,4 @@
 # configs
-Just a .vimrc. Normal vim with some key bindings and the ConqueTerm extension.
+    .zshrc requires oh-my-zshell
+    .vimrc requires no plugins though some keyboard shortcuts won't work
+    remotely.
