@@ -1,7 +1,8 @@
 " Description: Hasun Amarasekara's most basic vimrc
 
 set nocompatible    
-filetype off                 
+filetype plugin on
+" filetype off                 
 
 "set UTF-8 encoding
 set enc=utf-8
@@ -26,7 +27,6 @@ set expandtab        " expand tabs to spaces
 set textwidth=120
 
 " turn syntax highlighting on
-set t_Co=256
 syntax on
 
 " turn line numbers on
@@ -57,11 +57,11 @@ set showmode
 
 " Coloring 
 syntax on
-set t_Co=256 
 
 " Key Additions
 nnoremap <F5> :make<bar>copen<return>
-nnoremap <F2>  :vsplit .<CR>
+nnoremap <C-\> :NERDTreeToggle<CR>
+" nnoremap <F2>  :vsplit .<CR>
 set mouse=a
 
 " This stuff helps?
