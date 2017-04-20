@@ -1,4 +1,3 @@
 # configs
-    .zshrc requires oh-my-zshell
-    .vimrc requires no plugins though some keyboard shortcuts won't work
-    remotely.
+   + vimrc & zsh rc files
+   + Uses pathogen to manage plugins.
