@@ -58,10 +58,13 @@ set showmode
 " Coloring 
 syntax on
 
+" Spellcheck markdown files cuz God knows you need it.
+autocmd BufRead,BufNewFile *.md setlocal spell
+
 " Key Additions
 nnoremap <F5> :make<bar>copen<return>
 nnoremap <C-\> :NERDTreeToggle<CR>
-" nnoremap <F2>  :vsplit .<CR>
+nnoremap <F4> :SyntasticToggleMode<CR>
 set mouse=a
 
 " This stuff helps?
@@ -71,3 +74,13 @@ set lazyredraw
 "Start the Pathogen package manager
 execute pathogen#infect()
 
+"Default Settigns for Syntastic
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+let g:syntastic_c_compiler_options = '-w -ansi'
