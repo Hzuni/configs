@@ -1,0 +1,58 @@
+{
+    "gitlens.advanced.messages": {
+      "suppressResultsExplorerNotice": true,
+      "suppressShowKeyBindingsNotice": true
+    },
+    "editor.insertSpaces": true,
+    "window.zoomLevel": -1,
+    "editor.detectIndentation": true,
+    "editor.minimap.enabled": false,
+    "eslint.options": { 
+      "extensions": [".vue"] 
+    },
+    "workbench.colorTheme": "Monokai",
+    "search.": "panel",
+    "workbench.activityBar.visible": true,
+    "workbench.statusBar.visible": true,
+    "workbench.iconTheme": "vs-minimal",
+    "bookmarks.saveBookmarksInProject": true,
+    "bookmarks.treeview.visible": true,
+    "search.location": "panel",
+    "eslint.autoFixOnSave": true,
+    "eslint.provideLintTask": true,
+    "files.exclude": {
+      "**/.git": true,
+      "**/.svn": true,
+      "**/.hg": true,
+      "**/CVS": true,
+      "**/.DS_Store": true,
+      "**/*.pyc": true
+    },
+    "eslint.validate": [
+      {
+        "language": "vue",
+        "autoFix": true
+      },
+      {
+        "language": "html",
+        "autoFix": true
+      },
+      {
+        "language": "javascript",
+        "autoFix": true
+      }
+    ],
+    "vetur.format.defaultFormatter.js": "vscode-typescript",
+    "vetur.format.defaultFormatter.html": "js-beautify-html",
+    "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+    "terminal.integrated.rendererType": "dom",
+    "editor.fontLigatures": true,
+    "editor.fontWeight": "200",
+    "markdown.preview.fontFamily": "Fira Code-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', 'Ubuntu', 'Droid Sans', sans-serif",
+    "editor.fontFamily": "fira code",
+    "workbench.tips.enabled": false,
+    "workbench.enableExperiments": false,
+    "workbench.editor.highlightModifiedTabs": true,
+    "workbench.settings.editor": "json",
+    "editor.renderWhitespace": "none"
+  }
