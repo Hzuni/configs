@@ -1,0 +1,12 @@
+[submodule "nerdtree"]
+	path = vim/.vim/pack/hzuni/start/nerdtree
+	url = git@github.com:preservim/nerdtree.git
+	branch = master
+[submodule "ctrlp"]
+	path = vim/.vim/pack/hzuni/start/ctrlp
+	url = git@github.com:kien/ctrlp.vim.git
+	branch = master
+[submodule "fugitive"]
+	path = vim/.vim/pack/hzuni/start/fugitive
+	url = git@github.com:tpope/vim-fugitive.git
+	branch = master
